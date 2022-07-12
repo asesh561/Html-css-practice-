@@ -1,0 +1,24 @@
+.container
+{
+    border: 10px solid black
+    
+}
+.box
+{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    width: 33px;
+    display: flex;
+    padding: 10px;
+    display: flex;
+    
+    flex-shrink: 0;
+}
+.box1{background-color:blue}
+.box2{background-color:goldenrod}
+.box3{background-color:greenyellow}
+.box4{background-color:purple}
+.box5{background-color:aqua}
+.box6{background-color:firebrick}
+

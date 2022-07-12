@@ -1,0 +1,49 @@
+.container
+{
+    background-color: cornflowerblue;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: 2fr 4fr;
+    
+    text-align: center;
+    
+    column-gap: 50px;
+    row-gap: 50px;
+}
+
+.item1
+{
+    background-color: darkgreen;
+    grid-column: 1/6;
+    
+}
+.item2
+{
+    background-color: darkgray;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    
+}
+.item3
+{
+    background-color: darkkhaki;
+    
+}
+.item4
+{
+    background-color: darkmagenta;
+    
+}
+.item5
+{
+    background-color: darkolivegreen;
+    grid-column: 2/6;
+   
+}
+.item6
+{
+    background-color: darkorange;
+    grid-column: 1/6;
+    
+}
